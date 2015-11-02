@@ -13,7 +13,7 @@ permalink: /contact/
       <section class="section">
         <h5 class="title"><a href="#panel1">Contact Our Company</a></h5>
         <div class="content" data-slug="panel1">
-          <form action="http://formspree.io/{{ site.email }} method="POST"">
+          <form action="http://formspree.io/{{ site.email }}" method="POST">
             <div class="row collapse">
               <div class="large-2 columns">
                 <label class="inline">Your Name</label>
@@ -36,7 +36,7 @@ permalink: /contact/
           </form>
         </div>
       </section>
-      <!-- section class="section">
+      <!-- <section class="section">
         <h5 class="title"><a href="#panel2">Specific Person</a></h5>
         <div class="content" data-slug="panel2">
           <ul class="large-block-grid-5">
