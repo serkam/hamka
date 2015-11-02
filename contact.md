@@ -27,7 +27,15 @@ permalink: /contact/
                 <label class="inline"> Your Email</label>
               </div>
               <div class="large-10 columns">
-                <input type="text" id="yourEmail" placeholder="jane@smithco.com">
+                <input type="text" name="_replyto" placeholder="Your email" />
+              </div>
+            </div>
+            <div class="row collapse">
+              <div class="large-2 columns">
+                <label class="inline"> Subject</label>
+              </div>
+              <div class="large-10 columns">
+                <input type="hidden" name="_subject" value="New submission!" />
               </div>
             </div>
             <label>What's up?</label>
